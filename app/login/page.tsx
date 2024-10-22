@@ -1,32 +1,20 @@
 "use client";
-
 import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import { useRouter } from "next/navigation";
-import { useEffect } from "react";
-import { useAuth } from "./hooks/useAuth";
-import { auth } from "./lib/firebase";
+import { auth } from "../lib/firebase";
 
 export default function LoginPage() {
   const router = useRouter();
-  const { user, loading } = useAuth();
-
-  useEffect(() => {
-    if (!loading && user) {
-      router.push("/feed");
-    }
-  }, [user, loading, router]);
 
   const signInWithGoogle = async () => {
     const provider = new GoogleAuthProvider();
     try {
       await signInWithPopup(auth, provider);
-      router.push("/feed");
+      router.push("/");
     } catch (error) {
       console.error("Error during sign-in:", error);
     }
   };
-
-  if (loading) return <div>Loading...</div>;
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen">
