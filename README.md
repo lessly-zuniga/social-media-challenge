@@ -1,3 +1,6 @@
+
+<img width="1440" alt="Captura de pantalla 2024-10-22 a la(s) 1 19 30 p m" src="https://github.com/user-attachments/assets/4d06ab2b-c8da-49e0-84e4-86dd5206f61a">
+
 # Social Media Challenge
 
 We’ve developed a small social media app, designed and deployed with **Vercel**. We used **React.js**, **Next.js**, **Tailwind CSS**, and **Firebase** for user authentication and post storage.
