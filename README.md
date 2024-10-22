@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Social Media Challenge
 
-## Getting Started
+We’ve developed a small social media app, designed and deployed with **Vercel**. We used **React.js**, **Next.js**, **Tailwind CSS**, and **Firebase** for user authentication and post storage.
 
-First, run the development server:
+## Technologies used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **React.js**
+- **Next.js**
+- **Tailwind CSS**
+- **Firebase**
+- **Vercel**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Feed Screen**: This is where all user posts, including text and images, are displayed. You can navigate to a user’s profile by clicking on their name in a post.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Profile Screen**: Access your profile from the **navbar**, where you can view your posts and personal details. You can also view another user's profile by clicking on their name in a post.
 
-## Learn More
+- **Add Post**: By clicking the **"+"** button in the navbar, you can create a new post with an image and text through a modal.
 
-To learn more about Next.js, take a look at the following resources:
+- **Log out**: Clicking the **"Log out"** button allows you to sign out and you will be redirected to the login page.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The project is deployed on **Vercel**.
 
-## Deploy on Vercel
+## Desktop screenshots
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Feed**
+<img width="1440" alt="Captura de pantalla 2024-10-22 a la(s) 1 19 30 p m" src="https://github.com/user-attachments/assets/4d06ab2b-c8da-49e0-84e4-86dd5206f61a">
+
+- **Create new post**
+<img width="1440" alt="Captura de pantalla 2024-10-22 a la(s) 1 22 35 p m" src="https://github.com/user-attachments/assets/1c712b2c-ab26-4991-82f3-e91af3076d69">
+
+- **User profile**
+<img width="1439" alt="Captura de pantalla 2024-10-22 a la(s) 1 20 43 p m" src="https://github.com/user-attachments/assets/4382cf41-396e-4e75-b836-627ffb336564">
+
+## Mobile screenshots
+- **Feed**
+<img width="317" alt="Captura de pantalla 2024-10-22 a la(s) 1 24 14 p m" src="https://github.com/user-attachments/assets/4b01de7e-6d4f-4fcc-87ec-8c972b4385f3">
+
+- **Create new post**
+<img width="318" alt="Captura de pantalla 2024-10-22 a la(s) 1 25 31 p m" src="https://github.com/user-attachments/assets/1a60dd3f-0017-443a-b510-d85e4faea456">
+
+- **User profile**
+<img width="314" alt="Captura de pantalla 2024-10-22 a la(s) 1 24 55 p m" src="https://github.com/user-attachments/assets/0368d7da-b31d-400a-a568-bab3b417f6c8">
+
+
+
