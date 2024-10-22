@@ -70,7 +70,7 @@ export default function UserProfile() {
 
   return (
     <div className="h-screen mx-auto text-gray-900">
-      <div className="relative h-40 bg-gradient-to-r from-pink-500 to-purple-500">
+      <div className="relative h-40 bg-gradient-to-r from-fuchsia-400 to-cyan-300">
         <div className="absolute -bottom-16 left-4">
           <Image
             src={avatar || "/placeholder.svg?height=128&width=128"}
@@ -91,7 +91,7 @@ export default function UserProfile() {
           </h1>
         </div>
         <div className="mt-2 text-sm">
-          📸 Photography enthusiast | 🌿 Nature lover | ☕️ Coffee addict
+          🌿 Nature lover | ☕️ Coffee addict | 🎨 Art lover
         </div>
 
         <div className="flex justify-around mt-4 text-center">
